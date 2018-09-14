@@ -13,7 +13,6 @@
 
 typedef void (*log_LockFn)(void *udata, int lock);
 
-// LOG_INFO is define in syslog log_level, so rename it as LOGINFO
 enum {
     LOGTRACE = 0,
     LOGDEBUG,
